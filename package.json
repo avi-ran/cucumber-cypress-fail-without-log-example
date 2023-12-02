@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "testv-cucumber": "CUCUMBER_ENABLED='true' cypress open",
+    "testv-vanilla": "CUCUMBER_ENABLED='false' cypress open",
+    "test-cucumber": "CUCUMBER_ENABLED='true' cypress run",
+    "test-vanilla": "CUCUMBER_ENABLED='false' cypress run"
+
+
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "cypress": "latest",
+    "dotenv": "^16.3.1",
+    "typescript": "latest"
+  }
+}
